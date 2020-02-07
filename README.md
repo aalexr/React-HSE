@@ -8,6 +8,8 @@
 
 ![](hw1.jpg)
 
+---
+
 ### **ДЗ 2** - no deadline
 Настоить рабочее окружение и попробовать создать Hello world проект.
 Для пользователей Windows - https://www.liquidweb.com/kb/install-react-js-windows/
@@ -27,6 +29,9 @@ cd name-of-your-app
 npm run start
 ```
 
-Далее нужно создать репозиторий на GitHub (или GitLab/Bitbucket/...) и запушить этот проект в ветку master.
+Далее нужно запушить новосозданный проект в репозиторий (GitHub, GitLab, Bitbucket, whatever). Для тех кто [не знаком с git](/AboutGit.md).
+
 
 Желательно сделать это до следующего занятия (12.02), так как на этом семинаре будут практические задания. По всем вопросам пишите в чат или мне в telegram.
+
+
