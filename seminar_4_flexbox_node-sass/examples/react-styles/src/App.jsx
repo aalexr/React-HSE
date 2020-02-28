@@ -24,7 +24,11 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className={cx("container")}>
+      <div
+        className={cx("container", {
+          [`container-theme-${this.state.theme}`]: true
+        })}
+      >
         <div className={cx("radios")}>
           <div>
             <input

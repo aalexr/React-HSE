@@ -56,3 +56,12 @@ npm run start
 4. Кнопка для сортировки задач по приоритету.
 
 У массивов в js есть метод sort, см [документацию](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort).
+
+
+### **ДЗ 4** - deadline 23:59 06.03. Стилизация проекта
+Стилизовать проект по своему вкусу. Что будет оцениваться?
+  * Использование flexbox для верстки
+  * Модульность стилей, использование scss
+  * Работа с библиотекой `classnames` (см [примеры](seminar_4_flexbox_node-sass/examples/react-styles/src/App.jsx) использования)
+
+Для сдачи задания нужно создать pull request/merge request на github/gitlab/bitbucket (там, где лежит проект, созданный в дз2). [Пошаговая инструкция для GitHub.](AboutPullRequests.md)
