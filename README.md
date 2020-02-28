@@ -64,4 +64,4 @@ npm run start
   * Модульность стилей, использование scss
   * Работа с библиотекой `classnames` (см [примеры](seminar_4_flexbox_node-sass/examples/react-styles/src/App.jsx) использования)
 
-Для сдачи задания нужно создать pull request/merge request на github/gitlab/bitbucket (там, где лежит проект, созданный в дз2). [Пошаговая инструкция для GitHub.](AboutPullRequests.md)
+Сдавать задание так же, через Pull request.
