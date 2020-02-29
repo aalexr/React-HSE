@@ -64,4 +64,6 @@ npm run start
   * Модульность стилей, использование scss
   * Работа с библиотекой `classnames` (см [примеры](seminar_4_flexbox_node-sass/examples/react-styles/src/App.jsx) использования)
 
+При выполнении этого задания нельзя пользоваться библиотеками компонентов, такими как bootstrap, ant-design и прочими.
+
 Сдавать задание так же, через Pull request.
