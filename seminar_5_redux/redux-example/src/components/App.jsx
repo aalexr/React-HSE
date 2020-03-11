@@ -7,7 +7,6 @@ import classnames from "classnames/bind";
 import styles from "./App.module.scss";
 import rootReducer from "../reducers";
 import { Box1, Box3 } from "./Box/Box";
-import Node from "./Node/Node";
 import { setReceiverId } from "../actions";
 
 const cx = classnames.bind(styles);
