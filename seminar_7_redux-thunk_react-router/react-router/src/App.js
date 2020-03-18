@@ -5,7 +5,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <div>
-        <Route exact path='/' component={Header} />
+        <Route path='/' component={Header} />
 
         <ul>
           <li>
@@ -30,12 +30,19 @@ export default function App() {
 
         <hr />
 
-        <Route path='/' component={Home} />
-        <Route path='/login/' component={Login} />
-        <Route path='/projects/' component={Projects} />
-        <Route path='/projects/:projectId/' component={SpecificProject} />
-        <Route path='/projects/tasks/' component={Tasks} />
-        <Route path='/projects/tasks/new/' component={New} />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/login/' component={Login} />
+          <Route exact path='/projects/' component={Projects} />
+          <Route exact path='/projects/tasks/' component={Tasks} />
+          <Route path='/projects/tasks/new/' component={New} />
+          <Route path='/projects/:projectId/' component={SpecificProject} />
+
+          {/* <Redirect to='/' /> */}
+          <Route>
+            <div>404</div>
+          </Route>
+        </Switch>
       </div>
     </BrowserRouter>
   )
@@ -85,14 +92,18 @@ const Projects = () => {
   return (
     <div>
       <h2>Projects</h2>
+      <Link to='/new/path/'>new path</Link>
+      <Route path='/new/path/'>NEW PATH</Route>
     </div>
   )
 }
 
-const SpecificProject = () => {
+const SpecificProject = ({ match }) => {
+  const projectId = match.params.projectId
+
   return (
     <div>
-      <h2>Specific Project 4321</h2>
+      <h2>Specific Project {projectId}</h2>
     </div>
   )
 }
