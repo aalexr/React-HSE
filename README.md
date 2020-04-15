@@ -119,3 +119,6 @@ store = {
 }
 ```
 Имея `store` с такой или похожей структурой вам будет удобно выполнять следующее задание, связанное с client-server communication, в котором данные нужно будет получать с сервера.
+
+### **ДЗ 7** - deadline 23:59 28.04. Client-server communication
+Необходимо реализовать получение/создание/редактирование (по желанию) проектов и тасок через http запросы на backend. Документация к API сервера - https://github.com/ValeryStatinov/GoTodoList/wiki/TodoList-API.
